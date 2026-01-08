@@ -112,10 +112,10 @@ export default function StatusCard({ incentive }: StatusCardProps) {
       {/* CTAs */}
       <div className="flex flex-col gap-3">
         <Link href="/states/ca" className="btn-primary w-full text-center">
-          See California program details
+          View current state & utility rebate programs
         </Link>
         <Link href="/get-quotes" className="btn-secondary w-full text-center">
-          Find installers who handle current CA rebates
+          Find rebate-aware installers in your area
         </Link>
       </div>
     </div>

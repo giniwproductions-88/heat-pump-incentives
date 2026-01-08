@@ -22,8 +22,7 @@ export default function HomePage() {
         <StatusCard incentive={caIncentive} />
 
         <p className="text-xs text-slate-500 mt-8 max-w-md text-center">
-          This tool checks publicly available program data. Status may change
-          without notice.
+          This site tracks public rebate availability by state. It does not calculate savings or guarantee eligibility. Local utility rules always apply.
         </p>
       </main>
       <Footer />
