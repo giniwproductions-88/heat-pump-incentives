@@ -134,7 +134,7 @@ export default function CaliforniaPage() {
                 For the most current and accurate information, check these
                 official resources:
               </p>
-              <ul className="space-y-2">
+              <ul className="space-y-2 mb-4">
                 {ca.sources.map((source, index) => (
                   <li key={index}>
                     <a
@@ -161,6 +161,9 @@ export default function CaliforniaPage() {
                   </li>
                 ))}
               </ul>
+              <p className="text-slate-500 text-xs">
+                Additional programs may be available through investor-owned utilities (PG&E, SCE, SDG&E), municipal utility districts, and state-administered IRA programs (HEEHRA).
+              </p>
             </section>
 
             {/* CTA */}
@@ -169,7 +172,7 @@ export default function CaliforniaPage() {
                 Check Current Status
               </h2>
               <p className="text-slate-600 text-sm mb-4">
-                See the live California incentive status on our tool.
+                Because California rebates change by utility and funding status, the fastest way to know what applies right now is to check the live status tool.
               </p>
               <Link href="/" className="btn-primary">
                 View Status Tool →
