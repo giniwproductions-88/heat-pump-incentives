@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://homeenergybasics.com/heat-pumps",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://homeenergybasics.com/heat-pumps/$1",
+      "permanent": true
+    }
+  ]
+}
